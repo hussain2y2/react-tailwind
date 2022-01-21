@@ -19,4 +19,4 @@ Once the application is opened in the browser, all the products list will be sho
 
 Click the button `Show Five Products` on the top right corner and the products list view will be changed just the first five products name and image will be shown.
 
-Click the button again and all the products list will be shown again.
+Click the button again and all the products list will be shown back.
