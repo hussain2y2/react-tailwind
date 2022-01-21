@@ -26,7 +26,7 @@ export default function App() {
         </button>
       </div>
       {products.length && showFive ? (
-        <FirstFive products={products.splice(0, 5)}/>
+        <FirstFive products={products.slice(0, 5)}/>
       ) : (
         <ProductsList products={products}/>
       )}

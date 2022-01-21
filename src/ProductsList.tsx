@@ -15,7 +15,6 @@ export default function ProductsList({products}: any) {
             <span className="w-1/5 p-1 text-left">{title}</span>
             <span className="w-4/5 p-1">{description}</span>
             <span className="w-1/5 p-1">{price}</span>
-            {/*<img className="w-16 h-16" src={images.shift()} alt={title} loading="lazy" />*/}
           </li>
         )}
       </ul>

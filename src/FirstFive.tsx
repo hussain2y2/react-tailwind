@@ -13,7 +13,7 @@ export default function FirstFive({products}: any) {
           <li key={key} className="flex justify-between p-4 border-b-0">
             <span className="w-6/12 p-1">{title}</span>
             <span className="w-9/12 p-1">
-              <img className="w-96 h-36" src={images.shift()} alt={title} loading="lazy"/>
+              <img className="w-96 h-36" src={images.slice(0, 1)[0]} alt={title} loading="lazy"/>
             </span>
           </li>
         )}
