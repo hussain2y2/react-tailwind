@@ -6,7 +6,7 @@ export default function FirstFive({products}: any) {
     <div className="flex flex-row justify-center">
       <ul className="bg-white border rounded list-none list-inside px-2 py-4 mx-10 my-3">
         <li className="flex justify-start p-4 border-b-0">
-          <span className="w-6/12 p-1 font-medium">Title</span>
+          <span className="w-6/12 p-1 mr-2 font-medium">Name</span>
           <span className="w-9/12 p-1 font-medium">Image</span>
         </li>
         {products.map(({title, description, images, price}: Product, key: number) =>
